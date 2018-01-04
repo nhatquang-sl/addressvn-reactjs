@@ -1,0 +1,14 @@
+@import 'variables';
+
+html, body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body { padding-top: 58px; }
+
+.form-group.required {
+    label:after {
+        content: " *";
+        color: red;    
+    }
+}
